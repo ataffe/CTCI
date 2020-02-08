@@ -2,6 +2,7 @@
 *.vcxproj*
 pch.cpp
 pch.h
+x64
 
 # Visual Studio code files
 *.vs
