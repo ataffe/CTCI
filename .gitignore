@@ -1,0 +1,4 @@
+# Visual Studio files
+*.vcxproj*
+pch.cpp
+pch.h
