@@ -2,3 +2,6 @@
 *.vcxproj*
 pch.cpp
 pch.h
+
+# Visual Studio code files
+*.vs
