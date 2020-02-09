@@ -9,7 +9,9 @@ using namespace std;
 
 class PermutationAlgorithm {
 public:
-	// Testing default args
+	// Algorithm to check if word 1 is a permuation of word 2
+	// Time Complexity: O(n log n) n = size of largest input string.
+	// Space Complexity: O(1)
 	static bool isPermutation(string word1, string word2) {
 		if (word1.length() != word2.length()) {
 			return false;
@@ -29,8 +31,11 @@ class UniqueAlgorithm {
 private:
 	string word;
 public:
-	//Constructor
+	// Algorithm to determine if a string contains all unique characters
+	// Time Complexity: O(n) n= size of input string
+	// Space Complexity: O(c) c= size of alphabet
 	UniqueAlgorithm(string inputWord) : word(inputWord) {}
+	
 	bool isUnique128();
 	bool isUnique128(string input);
 };
@@ -38,6 +43,12 @@ public:
 class URLIFY {
 
 public: 
-	string 
+	string urlify(string);
+};
+
+
+class PalindromePermutation {
+public:
+	bool isPalindromePermutation(string word);
 };
 #endif
