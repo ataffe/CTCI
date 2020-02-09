@@ -7,14 +7,9 @@
 
 using namespace std;
 
-class permutationAlgorithm {
-	string word;
-	int test;
+class PermutationAlgorithm {
 public:
-	// Constructor
-	permutationAlgorithm(string inputWord) : word(inputWord) {}
 	// Testing default args
-	bool isUniuqe128();
 	static bool isPermutation(string word1, string word2) {
 		if (word1.length() != word2.length()) {
 			return false;
@@ -28,5 +23,21 @@ public:
 		}
 		return true;
 	}
+};
+
+class UniqueAlgorithm {
+private:
+	string word;
+public:
+	//Constructor
+	UniqueAlgorithm(string inputWord) : word(inputWord) {}
+	bool isUnique128();
+	bool isUnique128(string input);
+};
+
+class URLIFY {
+
+public: 
+	string 
 };
 #endif
