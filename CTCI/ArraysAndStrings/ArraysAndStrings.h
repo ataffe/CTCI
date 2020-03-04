@@ -58,4 +58,5 @@ class OneAway {
 public:
 	bool isOneAway(string word1, string word2);
 };
+// TODO Add compression
 #endif
