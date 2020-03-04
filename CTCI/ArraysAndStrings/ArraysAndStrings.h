@@ -40,8 +40,10 @@ public:
 	bool isUnique128(string input);
 };
 
-class URLIFY {
-
+class Urlify {
+	// Algorithm to replace spaces in a string with %20
+	// Time Complexity: O(n) n = size of the input string
+	// Space Complexity: O(n) n = size of output string
 public: 
 	string urlify(string);
 };
@@ -50,5 +52,10 @@ public:
 class PalindromePermutation {
 public:
 	bool isPalindromePermutation(string word);
+};
+
+class OneAway {
+public:
+	bool isOneAway(string word1, string word2);
 };
 #endif
