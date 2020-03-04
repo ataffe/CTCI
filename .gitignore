@@ -1,5 +1,5 @@
 # Visual Studio files
-*.vcxproj*
+#*.vcxproj*
 pch.cpp
 pch.h
 x64
